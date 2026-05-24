@@ -1,4 +1,4 @@
-// Find largest element in vector.
+// Count even and odd numbers.
 #include<iostream>
 #include<vector>
 
@@ -19,14 +19,17 @@ int main(){
 
     }
 
-    int max = v[0];
+    int even = 0;
+    int odd = 0;
 
     for(int element : v){
-        if(max < element){
-            max = element;
+        if(element%2 == 0){
+            even++;
+        }else{
+            odd++;
         }
     }
 
-    cout<<"Max number is : "<<max;
+    cout<<"Total Even Number : "<<even<<" Total Odd Number : "<<odd;
     return 0;
 }

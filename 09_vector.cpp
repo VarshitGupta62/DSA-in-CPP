@@ -1,4 +1,4 @@
-// Find largest element in vector.
+// Check if element exists in vector.
 #include<iostream>
 #include<vector>
 
@@ -19,14 +19,31 @@ int main(){
 
     }
 
-    int max = v[0];
+    int x , found;
+    cout<<"Enter element for find : ";
+    cin>>x;
 
     for(int element : v){
-        if(max < element){
-            max = element;
-        }
+
+        if(element == x){
+
+            found = true;
+            break;
+
+        } 
     }
 
-    cout<<"Max number is : "<<max;
+    if (found == true){
+
+        cout<<"Element is find";
+
+    }else{
+
+        cout<<"Element not find";
+
+    }
+    
+
+   
     return 0;
 }
