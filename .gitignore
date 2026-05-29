@@ -1,0 +1,62 @@
+# Output folder
+output/
+
+# Compiled Object files
+*.o
+*.obj
+
+# Static Libraries
+*.a
+*.lib
+
+# Shared Libraries
+*.so
+*.dll
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.pdb
+
+# Build directories
+build/
+bin/
+Debug/
+Release/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj*
+*.user
+
+# Code::Blocks
+*.cbp
+*.layout
+
+# Dev-C++
+*.dev
+
+# CLion / JetBrains
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
