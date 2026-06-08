@@ -19,6 +19,7 @@ int main()
         cin >> marks;
 
         studentData.insert({name, marks});
+        // studentData[name] = marks;
     }
 
     for (auto element : studentData)
