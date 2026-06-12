@@ -16,11 +16,11 @@ void task2(){
 
 int main(){
 
-    thread t1(task1);
-    thread t2(task2);
+    thread t1(task1); //Create thread
+    thread t2(task2); //Create thread
 
-    t1.join();
-    t2.join();
+    t1.join(); //Wait
+    t2.join(); //Wait
 
     cout<<"this is main thread";
 
