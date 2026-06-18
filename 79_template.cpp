@@ -2,9 +2,9 @@
 
 using namespace std;
 
-template <typename T>
+template <typename X , typename Y>
 
-T big(T a, T b)
+X big(X a, Y b)
 {
 
     if (a > b)
@@ -19,7 +19,7 @@ T big(T a, T b)
 
 int main(){
 
-    cout<<big(45 , 75)<<endl;
-    cout<<big(45.12 , 12.22);
+    cout<<big(45 , 75.33)<<endl;
+    cout<<big(45.12 , 12);
     
 }
