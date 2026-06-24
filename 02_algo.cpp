@@ -34,6 +34,8 @@ int main()
 
     int n = sizeof(arr) / sizeof(arr[0]);
 
+    cout<<"this is array size : "<<n<<endl;
+
     insertionSort(arr, n);
 
     cout << "Sorted Array: ";
