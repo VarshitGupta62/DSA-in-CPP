@@ -40,7 +40,7 @@ void quickSort(int arr[], int low, int high)
         // {
         //     cout << arr[l] << " ";
         // }
-        // quickSort(arr, pivotIndex + 1, high);
+        quickSort(arr, pivotIndex + 1, high);
 
         // cout << "Array left: ";
 
